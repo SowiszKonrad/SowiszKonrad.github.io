@@ -400,9 +400,14 @@ h6, .h6 {
   font-size: 1rem;
 }
 
+.abount-title {
+  text-align: center;
+}
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  text-align: center;
 }
 
 .display-1 {
@@ -8574,6 +8579,7 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
+  margin-top: 3rem !important;
   margin-bottom: 3rem !important;
 }
 
@@ -10777,11 +10783,11 @@ a.text-dark:hover, a.text-dark:focus {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: #ffaf00;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
+  opacity: 0.5;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {

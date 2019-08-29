@@ -60,5 +60,11 @@
     });
   });
 
+  $(document).ready(function(){
+    $('.modal').each(function(){
+      $(this).on('hidden.bs.modal', function (e) { console.log("dam"); var $this = $(this); var $frame = $this.find('iframe'); $frame.attr("src", $frame.attr("src")); });
+    });
+});
+
 
 })(jQuery); // End of use strict
